@@ -33,7 +33,7 @@ public class EmuApplication implements ApplicationRunner{
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		
-		for (int i=0; i<9; i++) {
+		for (int i=0; i<333; i++) {
 			Vehicle vehicle1 = new Car(aem, "car-"+i);
 			Vehicle vehicle2 = new Bus(aem, "bus-"+i);
 			Vehicle vehicle3 = new Truck(aem, "truck"+i);
